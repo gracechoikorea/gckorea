@@ -1,0 +1,176 @@
+html, body , div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block; }*/
+
+body {
+line-height: 1;
+background-color: #E2DFDE;
+}
+
+ol, ul {
+list-style: none;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+section, header, footer, nav, article, aside, figure {
+display: block;
+width: 100%;
+}
+
+.emoji {
+font-weight: normal;
+font-family: "Apple Color Emoji","Segoe UI Emoji","NotoColorEmoji","Segoe UI Symbol","Android Emoji","EmojiSymbols";
+}
+
+html {
+-webkit-font-smoothing: antialiased;
+}
+
+body {
+font-family: "Lato", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5em;
+padding: 0 10px;
+
+}
+
+body {
+overflow-x: hidden;
+}
+
+a {
+color: #222222;
+border-bottom: 1px solid transparent;
+}
+
+strong {
+font-weight: bold;
+}
+
+em {
+background-color: #fffeca;
+padding: 0 0.1em;
+}
+
+
+p {
+margin: 0.75em 0 0 0;
+color: #222222;
+font-size: 4em;
+font-weight: 900;
+font-style: italic;
+text-align: center;
+}
+
+.center {
+line-height: 60px;
+left: 0;
+margin-top: -200px;
+position: absolute;
+top: 50%;
+width: 100%;
+}
+
+.words {
+font-family: "Courier New", Courier, Monaco;
+color: #222222;
+font-size: 1em;
+margin-top: 0;
+display: block;
+overflow: auto;
+font-style: normal;
+}
+
+article {
+display: block;
+}
+
+
+h1 {
+color: white;
+font-size: 9em;
+margin: auto;
+text-align: center;
+}
+
+li {
+color: white;
+max-width: 640px;
+margin: auto;
+}
+
+body > header h1 a, body > header h1 a:hover {
+/* color: white; */
+color : #D6FFD9;
+border: 0;
+}
+
+h2 {
+font-size: 1.3em;
+margin-bottom: 0.2em;
+font-weight: 700;
+}
+
+h3 {
+font-size: 1em;
+font-weight: bold;
+color: white;
+margin: auto;
+max-width: 640px;
+}
+
+h2 a, h3 a {
+color: #222222;
+border: 0;
+}
+
+
+body > header, body > section, body > footer {
+max-width: 640px;
+margin: auto;
+}
+
+body > header {
+color: #aaa;
+margin: 5em auto 0.5em;
+}
+
+body > header p {
+margin: 0;
+}
+
+@media all and (max-width: 660px) {
+body > header {
+margin: 2em auto;
+}
+}
+
+i {
+font-style: italic;
+}
